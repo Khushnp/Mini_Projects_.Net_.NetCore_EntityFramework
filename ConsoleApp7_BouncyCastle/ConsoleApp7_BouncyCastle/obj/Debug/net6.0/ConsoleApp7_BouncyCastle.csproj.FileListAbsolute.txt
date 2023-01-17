@@ -1,0 +1,17 @@
+C:\Users\kush.pachghare\source\repos\ConsoleApp7_BouncyCastle\ConsoleApp7_BouncyCastle\obj\Debug\net6.0\ConsoleApp7_BouncyCastle.csproj.AssemblyReference.cache
+C:\Users\kush.pachghare\source\repos\ConsoleApp7_BouncyCastle\ConsoleApp7_BouncyCastle\obj\Debug\net6.0\ConsoleApp7_BouncyCastle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kush.pachghare\source\repos\ConsoleApp7_BouncyCastle\ConsoleApp7_BouncyCastle\obj\Debug\net6.0\ConsoleApp7_BouncyCastle.AssemblyInfoInputs.cache
+C:\Users\kush.pachghare\source\repos\ConsoleApp7_BouncyCastle\ConsoleApp7_BouncyCastle\obj\Debug\net6.0\ConsoleApp7_BouncyCastle.AssemblyInfo.cs
+C:\Users\kush.pachghare\source\repos\ConsoleApp7_BouncyCastle\ConsoleApp7_BouncyCastle\obj\Debug\net6.0\ConsoleApp7_BouncyCastle.csproj.CoreCompileInputs.cache
+C:\Users\kush.pachghare\source\repos\ConsoleApp7_BouncyCastle\ConsoleApp7_BouncyCastle\bin\Debug\net6.0\ConsoleApp7_BouncyCastle.exe
+C:\Users\kush.pachghare\source\repos\ConsoleApp7_BouncyCastle\ConsoleApp7_BouncyCastle\bin\Debug\net6.0\ConsoleApp7_BouncyCastle.deps.json
+C:\Users\kush.pachghare\source\repos\ConsoleApp7_BouncyCastle\ConsoleApp7_BouncyCastle\bin\Debug\net6.0\ConsoleApp7_BouncyCastle.runtimeconfig.json
+C:\Users\kush.pachghare\source\repos\ConsoleApp7_BouncyCastle\ConsoleApp7_BouncyCastle\bin\Debug\net6.0\ConsoleApp7_BouncyCastle.dll
+C:\Users\kush.pachghare\source\repos\ConsoleApp7_BouncyCastle\ConsoleApp7_BouncyCastle\bin\Debug\net6.0\ConsoleApp7_BouncyCastle.pdb
+C:\Users\kush.pachghare\source\repos\ConsoleApp7_BouncyCastle\ConsoleApp7_BouncyCastle\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\kush.pachghare\source\repos\ConsoleApp7_BouncyCastle\ConsoleApp7_BouncyCastle\obj\Debug\net6.0\ConsoleApp7_BouncyCastle.csproj.CopyComplete
+C:\Users\kush.pachghare\source\repos\ConsoleApp7_BouncyCastle\ConsoleApp7_BouncyCastle\obj\Debug\net6.0\ConsoleApp7_BouncyCastle.dll
+C:\Users\kush.pachghare\source\repos\ConsoleApp7_BouncyCastle\ConsoleApp7_BouncyCastle\obj\Debug\net6.0\refint\ConsoleApp7_BouncyCastle.dll
+C:\Users\kush.pachghare\source\repos\ConsoleApp7_BouncyCastle\ConsoleApp7_BouncyCastle\obj\Debug\net6.0\ConsoleApp7_BouncyCastle.pdb
+C:\Users\kush.pachghare\source\repos\ConsoleApp7_BouncyCastle\ConsoleApp7_BouncyCastle\obj\Debug\net6.0\ConsoleApp7_BouncyCastle.genruntimeconfig.cache
+C:\Users\kush.pachghare\source\repos\ConsoleApp7_BouncyCastle\ConsoleApp7_BouncyCastle\obj\Debug\net6.0\ref\ConsoleApp7_BouncyCastle.dll

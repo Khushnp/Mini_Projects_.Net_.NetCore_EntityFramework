@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VUjB55TwmwEG00PjxuFgxSQxrfPso6ooKj1cu/luHRQ=",
+  "Source": "BasicAuthenticationWebAPICore",
+  "BasePath": "_content/BasicAuthenticationWebAPICore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

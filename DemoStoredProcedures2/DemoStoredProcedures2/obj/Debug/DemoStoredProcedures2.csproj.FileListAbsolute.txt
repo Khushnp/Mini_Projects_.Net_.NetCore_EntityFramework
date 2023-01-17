@@ -1,0 +1,13 @@
+C:\Users\kush.pachghare\source\repos\DemoStoredProcedures2\DemoStoredProcedures2\bin\Debug\DemoStoredProcedures2.exe.config
+C:\Users\kush.pachghare\source\repos\DemoStoredProcedures2\DemoStoredProcedures2\bin\Debug\DemoStoredProcedures2.exe
+C:\Users\kush.pachghare\source\repos\DemoStoredProcedures2\DemoStoredProcedures2\bin\Debug\DemoStoredProcedures2.pdb
+C:\Users\kush.pachghare\source\repos\DemoStoredProcedures2\DemoStoredProcedures2\bin\Debug\EntityFramework.dll
+C:\Users\kush.pachghare\source\repos\DemoStoredProcedures2\DemoStoredProcedures2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kush.pachghare\source\repos\DemoStoredProcedures2\DemoStoredProcedures2\bin\Debug\EntityFramework.xml
+C:\Users\kush.pachghare\source\repos\DemoStoredProcedures2\DemoStoredProcedures2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kush.pachghare\source\repos\DemoStoredProcedures2\DemoStoredProcedures2\obj\Debug\DemoStoredProcedures2.csproj.AssemblyReference.cache
+C:\Users\kush.pachghare\source\repos\DemoStoredProcedures2\DemoStoredProcedures2\obj\Debug\DemoStoredProcedures2.csproj.SuggestedBindingRedirects.cache
+C:\Users\kush.pachghare\source\repos\DemoStoredProcedures2\DemoStoredProcedures2\obj\Debug\DemoStoredProcedures2.csproj.CoreCompileInputs.cache
+C:\Users\kush.pachghare\source\repos\DemoStoredProcedures2\DemoStoredProcedures2\obj\Debug\DemoStoredProcedures2.csproj.CopyComplete
+C:\Users\kush.pachghare\source\repos\DemoStoredProcedures2\DemoStoredProcedures2\obj\Debug\DemoStoredProcedures2.exe
+C:\Users\kush.pachghare\source\repos\DemoStoredProcedures2\DemoStoredProcedures2\obj\Debug\DemoStoredProcedures2.pdb

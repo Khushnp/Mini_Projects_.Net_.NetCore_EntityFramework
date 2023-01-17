@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TrainingDB2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Author1">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AddedDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Email" Type="String" MaxLength="512" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IPAddress" Type="Int32" Nullable="false" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Book1" Relationship="Self.FK_Book1_Author1" FromRole="Author1" ToRole="Book1" />
+  </EntityType>
+  <EntityType Name="Book1">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AddedDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="AuthorId" Type="Int64" Nullable="false" />
+    <Property Name="IPAddress" Type="Int32" Nullable="false" />
+    <Property Name="ISBN" Type="Int64" />
+    <Property Name="ModifiedDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Publisher" Type="String" MaxLength="512" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Author1" Relationship="Self.FK_Book1_Author1" FromRole="Book1" ToRole="Author1" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StudentId" />
+    </Key>
+    <Property Name="StudentId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RollNo" Type="Int32" />
+    <Property Name="Address" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="StudentGrade">
+    <Key>
+      <PropertyRef Name="EnrollmentID" />
+    </Key>
+    <Property Name="EnrollmentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CourseID" Type="Int32" Nullable="false" />
+    <Property Name="StudentID" Type="Int32" Nullable="false" />
+    <Property Name="Grade" Type="Decimal" Precision="3" Scale="2" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Book1_Author1">
+    <End Role="Author1" Type="Self.Author1" Multiplicity="1" />
+    <End Role="Book1" Type="Self.Book1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Author1">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Book1">
+        <PropertyRef Name="AuthorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TrainingDB2Entities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Author1" EntityType="Self.Author1" />
+    <EntitySet Name="Book1" EntityType="Self.Book1" />
+    <EntitySet Name="Students" EntityType="Self.Student" />
+    <EntitySet Name="StudentGrades" EntityType="Self.StudentGrade" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK_Book1_Author1" Association="Self.FK_Book1_Author1">
+      <End Role="Author1" EntitySet="Author1" />
+      <End Role="Book1" EntitySet="Book1" />
+    </AssociationSet>
+    <FunctionImport Name="GetStudentGrades" EntitySet="StudentGrades" ReturnType="Collection(TrainingDB2Model.StudentGrade)">
+      <Parameter Name="StudentID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(TrainingDB2Model.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(TrainingDB2Model.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="GetStudentGrades_Result">
+    <Property Type="Int32" Name="EnrollmentID" Nullable="false" />
+    <Property Type="Decimal" Name="Grade" Nullable="true" Precision="3" Scale="2" />
+    <Property Type="Int32" Name="CourseID" Nullable="false" />
+    <Property Type="Int32" Name="StudentID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

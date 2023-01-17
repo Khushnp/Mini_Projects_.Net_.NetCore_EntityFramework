@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SMIHIUk5fljmZCX2zMN+Wj5OWmPdFL/9D1AZ5Hg+nQ4=",
+  "Source": "AuthorizationAndAuthenticationWebApiCore",
+  "BasePath": "_content/AuthorizationAndAuthenticationWebApiCore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

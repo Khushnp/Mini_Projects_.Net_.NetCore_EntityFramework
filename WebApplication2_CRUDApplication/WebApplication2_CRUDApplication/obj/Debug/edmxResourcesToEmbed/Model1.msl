@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TrainingDB2ModelStoreContainer" CdmEntityContainer="TrainingDB2Entities">
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="TrainingDB2Model.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="Customers_CRUD" FunctionName="TrainingDB2Model.Store.Customers_CRUD">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TrainingDB2Model.Customers_CRUD_Result">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Customers_PerformCRUD" FunctionName="TrainingDB2Model.Store.Customers_CRUD" />
+  </EntityContainerMapping>
+</Mapping>

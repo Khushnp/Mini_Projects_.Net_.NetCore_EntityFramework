@@ -1,0 +1,8 @@
+C:\Users\kush.pachghare\source\repos\ConsoleApp6_ParalleForEach\ConsoleApp6_ParalleForEach\bin\Debug\ConsoleApp6_ParalleForEach.exe.config
+C:\Users\kush.pachghare\source\repos\ConsoleApp6_ParalleForEach\ConsoleApp6_ParalleForEach\bin\Debug\ConsoleApp6_ParalleForEach.exe
+C:\Users\kush.pachghare\source\repos\ConsoleApp6_ParalleForEach\ConsoleApp6_ParalleForEach\bin\Debug\ConsoleApp6_ParalleForEach.pdb
+C:\Users\kush.pachghare\source\repos\ConsoleApp6_ParalleForEach\ConsoleApp6_ParalleForEach\obj\Debug\ConsoleApp6_ParalleForEach.csproj.AssemblyReference.cache
+C:\Users\kush.pachghare\source\repos\ConsoleApp6_ParalleForEach\ConsoleApp6_ParalleForEach\obj\Debug\ConsoleApp6_ParalleForEach.csproj.SuggestedBindingRedirects.cache
+C:\Users\kush.pachghare\source\repos\ConsoleApp6_ParalleForEach\ConsoleApp6_ParalleForEach\obj\Debug\ConsoleApp6_ParalleForEach.csproj.CoreCompileInputs.cache
+C:\Users\kush.pachghare\source\repos\ConsoleApp6_ParalleForEach\ConsoleApp6_ParalleForEach\obj\Debug\ConsoleApp6_ParalleForEach.exe
+C:\Users\kush.pachghare\source\repos\ConsoleApp6_ParalleForEach\ConsoleApp6_ParalleForEach\obj\Debug\ConsoleApp6_ParalleForEach.pdb

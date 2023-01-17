@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ULt/y7xFbDkjNIAP/pHZJzEIAZNkgkRT2Q1GZGCWISo=",
+  "Source": "JWTAuthDemoUsingStoredProcedures",
+  "BasePath": "_content/JWTAuthDemoUsingStoredProcedures",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5mPOdtIE0n7hO6vNA1kyD4kr9rO09YG8StWJnxMf4O8=",
+  "Source": "AspNetCoreWebApiDemo",
+  "BasePath": "_content/AspNetCoreWebApiDemo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
