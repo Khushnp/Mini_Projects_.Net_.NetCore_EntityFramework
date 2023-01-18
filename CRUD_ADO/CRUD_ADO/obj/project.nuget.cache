@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "4wXTg8+iUtk2CF3GEq3KjWUBGL2iyAdRzDTjxxw7Q+4ELLkU8cjgkhEcs5LMH+yGcFXn100r+wS06YxU5zNGHw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kush.pachghare\\source\\repos\\CRUD_ADO\\CRUD_ADO\\CRUD_ADO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kush.pachghare\\.nuget\\packages\\jquery\\3.3.1\\jquery.3.3.1.nupkg.sha512",
+    "C:\\Users\\kush.pachghare\\.nuget\\packages\\jquery.validation\\1.17.0\\jquery.validation.1.17.0.nupkg.sha512",
+    "C:\\Users\\kush.pachghare\\.nuget\\packages\\jquery.validation.unobtrusive\\2.0.20710\\jquery.validation.unobtrusive.2.0.20710.nupkg.sha512",
+    "C:\\Users\\kush.pachghare\\.nuget\\packages\\microsoft.jquery.unobtrusive.validation\\2.0.20710\\microsoft.jquery.unobtrusive.validation.2.0.20710.nupkg.sha512",
+    "C:\\Users\\kush.pachghare\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\kush.pachghare\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\kush.pachghare\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\kush.pachghare\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\kush.pachghare\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\kush.pachghare\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\kush.pachghare\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
+    "C:\\Users\\kush.pachghare\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\kush.pachghare\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "jQuery.Validation.Unobtrusive 2.0.20710 depends on Microsoft.jQuery.Unobtrusive.Validation (>= 2.0.20613) but Microsoft.jQuery.Unobtrusive.Validation 2.0.20613 was not found. An approximate best match of Microsoft.jQuery.Unobtrusive.Validation 2.0.20710 was resolved.",
+      "libraryId": "Microsoft.jQuery.Unobtrusive.Validation",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
